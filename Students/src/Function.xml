@@ -1,0 +1,21 @@
+
+<suite name="Adhoc"> 
+<test name="functions">
+<parameter name="browsers" value="firefox"></parameter>
+<parameter name="Website" value="https://www.amazon.com"></parameter>
+<classes> 
+<class name= "Pro.Training.Tech.Students.SeleniumNewTest"></class>
+<class name="Pro.Training.Tech.Students.PageObjectModel"></class>
+<class name="Pro.Training.Tech.Students.Searches"></class>
+</classes>
+</test>
+<test name="functionsbrowsers"></test>
+<parameter name="browsers" value="Edge"></parameter>
+<parameter name="Website" value="https://www.amazon.com"></parameter>
+<classes> 
+<class name= "Pro.Training.Tech.Students.SeleniumNewTest"></class>
+<class name="Pro.Training.Tech.Students.PageObjectModel"></class>
+<class name="Pro.Training.Tech.Students.Searches"></class>
+</classes>
+</suite>
+<!-- this is for commenting code--> 
